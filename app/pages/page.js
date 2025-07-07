@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
-
+//TODO change path to contact page
 function ContactPage() {
   return (
     <div>

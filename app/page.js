@@ -1,15 +1,15 @@
 import Link from 'next/link'
 import ProductCard from './components/ProductCard';
-
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Presentation from './components/Presentation';
 export default function Home() {
   return (
    <main>
-    <h1>hello </h1>
-    <p>nav bar</p>
-    
-    <p>section hero</p>
+    <Navbar/>
+    <Hero/>
     <p>next event seciton</p>
-    <p>qui sommes nous?</p>
+    <Presentation/>
     <p>nos commissions</p>
     <Link href="/pages">pages</Link>
     <ProductCard/>
