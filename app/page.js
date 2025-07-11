@@ -5,12 +5,13 @@ import Hero from './components/Hero';
 import Presentation from './components/Presentation';
 import Commissions from './components/Commissions';
 import Media from './components/Media';
+import NextEvent from './components/NextEvent';
 export default function Home() {
   return (
    <main>
     <Navbar/>
     <Hero/>
-    <p>next event seciton</p>
+    <NextEvent/>
     <Presentation/>
     <Commissions/>
     <Media/>
