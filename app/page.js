@@ -3,6 +3,8 @@ import ProductCard from './components/ProductCard';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Presentation from './components/Presentation';
+import Commissions from './components/Commissions';
+import Media from './components/Media';
 export default function Home() {
   return (
    <main>
@@ -10,11 +12,8 @@ export default function Home() {
     <Hero/>
     <p>next event seciton</p>
     <Presentation/>
-    <p>nos commissions</p>
-    <Link href="/pages">pages</Link>
-    <ProductCard/>
-    <p>media</p>
-    <p>footer</p>
+    <Commissions/>
+    <Media/>
    </main>
   );
 }
