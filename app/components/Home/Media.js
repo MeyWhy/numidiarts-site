@@ -13,7 +13,7 @@ function Media() {
         {/* Slide 1 */}
         <div id="slide1" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/img3.jpg"
+            src="/images/img3.jpg"
             alt="img3"
             width={500}
             height={500}
@@ -28,7 +28,7 @@ function Media() {
         {/* Slide 2 */}
         <div id="slide2" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/img4.jpg"
+            src="/images/img4.jpg"
             alt="img4"
             width={500}
             height={500}
@@ -43,7 +43,7 @@ function Media() {
         {/* Slide 3 */}
         <div id="slide3" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/img5.jpg"
+            src="/images/img5.jpg"
             alt="img5"
             width={300}
             height={300}
@@ -60,7 +60,7 @@ function Media() {
         {/* Slide 4 */}
         <div id="slide4" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/img1.jpg"
+            src="/images/img1.jpg"
             alt="img1"
             width={500}
             height={500}

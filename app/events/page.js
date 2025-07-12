@@ -1,11 +1,11 @@
 import React from 'react'
 
-function TestPage() {
+function Page() {
   return (
     <div>
-test
+      eventsss
     </div>
   )
 }
 
-export default TestPage
+export default Page

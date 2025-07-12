@@ -3,13 +3,14 @@ import Image from 'next/image'
 function NextEvent() {
   return (
     <div className='w-1/2 mx-auto'>
-    <div className="card card-sm card-side bg-base-100 shadow-lg">
-  <figure className="p-4">
+    <div className="card card-sm card-side bg-base-100 shadow-lg flex flex-col sm:flex-row">
+  <figure className="p-4 flex justify-center sm:justify-start">
     <Image
     width={130}
     height={130}
-      src="/affichetest.jpg"
-      alt="affiche" />
+      src="/images/affichetest.jpg"
+      alt="affiche"
+      className='sm:w-[100%] sm:h-auto'/>
   </figure>
   <div className="card-body w-1/2">
     <h2 className="card-title">Les journées du cinéma Ciné Cirta</h2>

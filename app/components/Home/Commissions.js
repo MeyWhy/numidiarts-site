@@ -8,7 +8,7 @@ function Commissions() {
         <div className="card card-md bg-base-100 w-90">
   <figure>
     <Image
-      src="/img1.jpg"
+      src="/images/img1.jpg"
       alt="zinzins du théâtre"
       width={330}
       height={330}
@@ -26,7 +26,7 @@ function Commissions() {
  <div className="card card-md bg-base-100 w-90 ">
   <figure>
     <Image
-      src="/img1.jpg"
+      src="/images/img1.jpg"
       alt="zinzins du cinéma"
        width={330}
       height={330}
@@ -44,7 +44,7 @@ function Commissions() {
  <div className="card card-md bg-base-100 w-90 ">
   <figure>
     <Image
-      src="/img1.jpg"
+      src="/images/img1.jpg"
       alt="zinzins de la musique"
        width={330}
       height={330}
@@ -62,7 +62,7 @@ function Commissions() {
  <div className="card card-md bg-base-100 w-90 ">
   <figure>
     <Image
-      src="/img1.jpg"
+      src="/images/img1.jpg"
       alt="zinzins de la lecture"
       width={330}
       height={330}
@@ -80,7 +80,7 @@ function Commissions() {
  <div className="card card-md bg-base-100 w-90 ">
   <figure>
     <Image
-      src="/img1.jpg"
+      src="/images/img1.jpg"
       alt="zinzins de la nature"
        width={330}
       height={330}
@@ -98,7 +98,7 @@ function Commissions() {
  <div className="card card-md bg-base-100 w-90 ">
   <figure>
     <Image
-      src="/img1.jpg"
+      src="/images/img1.jpg"
       alt="zinzins du bénévolat"
        width={330}
       height={330}
