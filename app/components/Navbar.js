@@ -32,23 +32,23 @@ function Navbar() {
          <div className='hidden md:block'>
              <div className='ml-5 flex items-center space-x-4'>
 
-          <Link href='/' className='group relative text-gray-600 uppercase text-xs font-semibold py-8'>
+          <Link href='/' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Accueil
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/about'className='group relative text-gray-600 uppercase text-xs font-semibold py-8'>
+           <Link href='/about'className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             L'association
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/medias' className='group relative text-gray-600 uppercase text-xs font-semibold py-8'>
+           <Link href='/medias' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Médias            
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/events' className='group relative text-gray-600 uppercase text-xs font-semibold py-8'>
+           <Link href='/events' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Evénements
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/contact' className='group relative text-gray-600 uppercase text-xs font-semibold py-8'>
+           <Link href='/contact' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Contact
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
@@ -89,16 +89,16 @@ function Navbar() {
         {isClick && (
             <div className='md:hidden'>
                 <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                     <Link href='/' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-semibold rounded-lg p-4'>
+                     <Link href='/' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>
             Accueil
             </Link>
-       <Link href='/about' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-semibold rounded-lg p-4'>            L'association
+       <Link href='/about' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            L'association
         </Link>
-       <Link href='/medias' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-semibold rounded-lg p-4'>            Médias
+       <Link href='/medias' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            Médias
         </Link>
-       <Link href='/events' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-semibold rounded-lg p-4'>            Evénements
+       <Link href='/events' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            Evénements
             </Link>
-       <Link href='/contact' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-semibold rounded-lg p-4'>            Contact
+       <Link href='/contact' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            Contact
             </Link>
                 </div>
             </div>
