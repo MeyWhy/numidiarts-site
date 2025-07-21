@@ -48,7 +48,7 @@ function Footer() {
     </div>
   </nav>
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by Mey Yaou</p>
+    <p>Copyright Numidi Arts © {new Date().getFullYear()} - All right reserved by Mey Yaou</p>
   </aside>
 </footer>
 
