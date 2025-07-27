@@ -12,6 +12,8 @@ function Home() {
     <Presentation/>
     <Commissions/>
     <Media/>
+    <div className='h-12'></div>
+
     </div>
   )
 }

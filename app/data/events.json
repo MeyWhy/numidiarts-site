@@ -1,0 +1,36 @@
+[{
+    "title": "Festival des Arts Numidiens",
+    "date": "2024-08-10 | 10:00",
+    "location": "Maison de la Culture Malek Haddad",
+    "description": "Une journée de célébration des arts visuels, des spectacles de danse contemporaine et des performances musicales mettant en avant les jeunes talents constantinois.",
+    "image": "/images/affichetest.jpg"
+  },
+  {
+    "title": "Atelier d'initiation à la peinture pour enfants",
+    "date": "2024-09-03 | 15:00",
+    "location": "Centre Culturel Ziadia",
+    "description": "Une activité ludique et éducative où les enfants découvrent les bases de la peinture et expriment leur créativité dans une ambiance bienveillante.",
+    "image": "/images/affichetest.jpg"
+  },
+  {
+    "title": "Exposition photo 'Mémoire de Constantine'",
+    "date": "2024-10-15 | 16:00",
+    "location": "Musée National Cirta",
+    "description": "Une exposition collective réunissant les clichés de photographes amateurs et professionnels retraçant l’histoire et les visages de la ville de Constantine.",
+    "image": "/images/affichetest.jpg"
+  },
+  {
+    "title": "Projection-débat : Cinéma et société",
+    "date": "2024-11-07 | 14:00",
+    "location": "Cinémathèque Ennasr",
+    "description": "Projection du film 'Papicha' suivie d’un débat avec des invités du monde culturel sur le rôle du cinéma dans l’évolution sociale en Algérie.",
+    "image": "/images/affichetest.jpg"
+  },
+  {
+    "title": "Journée solidaire : art et enfance",
+    "date": "2024-12-19 | 16:30",
+    "location": "Orphelinat de Sidi Mabrouk",
+    "description": "Des artistes bénévoles animent une journée d’ateliers artistiques pour enfants, accompagnée de spectacles de marionnettes et de dons de matériel scolaire.",
+    "image": "/images/affichetest.jpg"
+  }
+]

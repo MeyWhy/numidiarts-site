@@ -1,65 +1,77 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
+import Image from 'next/image'
+import events from '../data/events.json'
 
 function Page() {
+  const itemsPerPage = 3
+  const [currentPage, setCurrentPage] = useState(1)
+
+  const totalPages = Math.ceil(events.length / itemsPerPage)
+
+  const currentEvents = events.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  )
+
   return (
-    <div>
-      eventsss
-      <ul className="list bg-base-100 rounded-box shadow-md">
-  
-  <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">Most played songs this week</li>
-  
-  <li className="list-row">
-    <div><img className="size-10 rounded-box" src="https://img.daisyui.com/images/profile/demo/1@94.webp"/></div>
-    <div>
-      <div>Dio Lupa</div>
-      <div className="text-xs uppercase font-semibold opacity-60">Remaining Reason</div>
-    </div>
-    <p className="list-col-wrap text-xs">
-      "Remaining Reason" became an instant hit, praised for its haunting sound and emotional depth. A viral performance brought it widespread recognition, making it one of Dio Lupa’s most iconic tracks.
-    </p>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M6 3L20 12 6 21 6 3z"></path></g></svg>
-    </button>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></g></svg>
-    </button>
-  </li>
-  
-  <li className="list-row">
-    <div><img className="size-10 rounded-box" src="https://img.daisyui.com/images/profile/demo/4@94.webp"/></div>
-    <div>
-      <div>Ellie Beilish</div>
-      <div className="text-xs uppercase font-semibold opacity-60">Bears of a fever</div>
-    </div>
-    <p className="list-col-wrap text-xs">
-      "Bears of a Fever" captivated audiences with its intense energy and mysterious lyrics. Its popularity skyrocketed after fans shared it widely online, earning Ellie critical acclaim.
-    </p>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M6 3L20 12 6 21 6 3z"></path></g></svg>
-    </button>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></g></svg>
-    </button>
-  </li>
-  
-  <li className="list-row">
-    <div><img className="size-10 rounded-box" src="https://img.daisyui.com/images/profile/demo/3@94.webp"/></div>
-    <div>
-      <div>Sabrino Gardener</div>
-      <div className="text-xs uppercase font-semibold opacity-60">Cappuccino</div>
-    </div>
-    <p className="list-col-wrap text-xs">
-      "Cappuccino" quickly gained attention for its smooth melody and relatable themes. The song’s success propelled Sabrino into the spotlight, solidifying their status as a rising star.
-    </p>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M6 3L20 12 6 21 6 3z"></path></g></svg>
-    </button>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></g></svg>
-    </button>
-  </li>
-  
-</ul>
+    <div className='px-4'>
+      <hr className="w-full h-px mt-8 mb-5 bg-gray-100 border-0 dark:bg-gray-700" />
+      <h2 className='text-black text-2xl font-medium whitespace-nowrap px-2 sm:px-5'>Nos Evènements</h2>
+      
+      <ul className="list bg-base-100 mt-10 space-y-6">
+        {currentEvents.map((event, index) => (
+          <li key={index}>
+            <div className="card bg-base-100 shadow-[0_0_10px_rgba(0,0,0,0.1)] flex flex-col sm:flex-row mx-auto max-w-3xl">
+              <figure className="w-full sm:w-1/3 p-4 flex justify-center">
+                <Image
+                  width={130}
+                  height={130}
+                  src={event.image}
+                  alt="affiche"
+                  className='w-[130px] h-auto object-contain'
+                />
+              </figure>
+              <div className="card-body w-full px-4 pt-0 sm:pt-4">
+                <h2 className="card-title text-lg sm:text-xl">{event.title}</h2>
+                <p className='text-gray-500 text-sm sm:text-md'>{event.date}</p>
+                <p className='text-red-700 text-base sm:text-lg'>{event.location}</p>
+                <p className='text-sm text-justify'>{event.description}</p>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+
+      {/* PAGINATION CONTROLS */}
+      <div className="flex justify-center flex-wrap gap-2 mt-8">
+        <button
+          className="btn btn-sm bg-gray-200"
+          disabled={currentPage === 1}
+          onClick={() => setCurrentPage(p => p - 1)}
+        >
+          Précédent
+        </button>
+
+        {Array.from({ length: totalPages }, (_, i) => (
+          <button
+            key={i}
+            className={`btn btn-sm ${currentPage === i + 1 ? 'bg-red-500 text-white' : 'bg-gray-200'}`}
+            onClick={() => setCurrentPage(i + 1)}
+          >
+            {i + 1}
+          </button>
+        ))}
+
+        <button
+          className="btn btn-sm bg-gray-200"
+          disabled={currentPage === totalPages}
+          onClick={() => setCurrentPage(p => p + 1)}
+        >
+          Suivant
+        </button>
+      </div>
+      <div className='h-8'></div>
     </div>
   )
 }
