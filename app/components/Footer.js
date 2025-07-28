@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 //TODO add links to social media
 function Footer() {
@@ -5,10 +6,10 @@ function Footer() {
     <div>
 <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
   <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">L'association</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Politique de Confidentialité</a>
-    <a className="link link-hover">Médias</a>
+    <Link href='/about' className="link link-hover">L'association</Link>
+    <Link href='/contact' className="link link-hover">Contact</Link>
+    <Link href='/' className="link link-hover">Politique de Confidentialité</Link>
+    <Link href='/medias' className="link link-hover">Médias</Link>
   </nav>
   <nav>
     <div className="grid grid-flow-col gap-4">

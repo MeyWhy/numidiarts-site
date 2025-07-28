@@ -17,7 +17,7 @@ function Page() {
   return (
     <div className='px-4'>
       <hr className="w-full h-px mt-8 mb-5 bg-gray-100 border-0 dark:bg-gray-700" />
-      <h2 className='text-black text-2xl font-medium whitespace-nowrap px-2 sm:px-5'>Nos Evènements</h2>
+      <h2 className='text-3xl font-semibold text-center mb-10 sm:px-5'>Nos Evènements</h2>
       
       <ul className="list bg-base-100 mt-10 space-y-6">
         {currentEvents.map((event, index) => (

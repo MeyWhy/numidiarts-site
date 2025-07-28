@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 function NextEvent() {
   return (
     <div className='w-full sm:w-1/2 mx-auto px-4 relative'>
@@ -38,7 +38,7 @@ function NextEvent() {
             L'invitation est ouverte à tous les amateurs du septième art.
           </p>
           <div className="card-actions justify-end">
-            <button className="btn bg-white hover:bg-red-300">&rarr;</button>
+            <Link href='/events' className="btn bg-white hover:bg-red-300">&rarr;</Link>
           </div>
         </div>
       </div>

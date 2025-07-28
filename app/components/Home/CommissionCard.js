@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function CommissionCard({ image, title, description }) {
   return (
@@ -17,9 +18,9 @@ function CommissionCard({ image, title, description }) {
         <h2 className="card-title text-lg font-semibold text-gray-800">{title}</h2>
         <p className="text-sm text-gray-600">{description}</p>
         <div className="card-actions mt-4">
-          <button className="btn btn-sm text-white bg-red-400 rounded-3xl hover:bg-red-600">
+          <Link href='/about/#commissions' className="btn btn-sm text-white bg-red-400 rounded-3xl hover:bg-red-600">
            Découvrir &gt;
-          </button>
+          </Link>
         </div>
       </div>
     </div>

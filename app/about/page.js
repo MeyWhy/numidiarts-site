@@ -33,21 +33,21 @@ function AboutUsPage() {
         </div>
       </section>
 
-      <section className='py-0 px-6'>
+      <section id='more' className='py-0 px-6'>
       <div className='max-w-5xl mx-auto'>
         <More/>
       </div>
       </section>
 
-      <section className="py-16 bg-white px-6">
+      <section id='commissions' className="py-16 bg-white px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-semibold text-center mb-10">Nos commissions</h2>
-       
+        <Carousel/>
         </div>
       </section>
 
       
-      <section className="py-16 bg-red-50 px-6">
+      <section id='valeurs' className="py-16 bg-red-50 px-6">
         <div className="mx-auto">
           <h2 className="text-3xl font-semibold text-center mb-10">Nos valeurs</h2>
          <Valeurs/>

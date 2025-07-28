@@ -5,18 +5,17 @@ import React from 'react'
 import { useState } from 'react'
 import medias from '../data/images.json'
 
-const categories = ['All categories', 'Shoes', 'Bags', 'Electronics', 'Gaming']
+const categories = ['Toutes les commissions', 'Cinéma', 'Lecture', 'Kermesse', 'Nature', 'Musique', 'Bénévolat', 'Théâtre']
 
 function Page() {
-    const [selected, setSelected] = useState('All categories')
+    const [selected, setSelected] = useState('Toutes les commissions')
 
-  const filtered = selected === 'All categories'
+  const filtered = selected === 'Toutes les commissions'
     ? medias
-    : medias.filter(item => item.category === selected)
+    : medias.filter(item => item.commission === selected)
 
   return (
     <div className="px-4 md:px-8">
-      {/* Filtres */}
       <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
         {categories.map(cat => (
           <button
@@ -32,7 +31,6 @@ function Page() {
         ))}
       </div>
 
-      {/* Galerie */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {filtered.map((item, idx) => (
           <div key={idx}>
