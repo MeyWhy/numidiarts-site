@@ -6,7 +6,7 @@ function Media() {
     <div className='bg-gray-900 py-10'>
         <div className="flex items-center justify-center gap-4 px-4 mb-8">
         <div className="flex-grow border-t border-gray-500"></div>
-        <Link href='/medias' className='text-white text-2xl font-medium text-center whitespace-nowrap'>Médias</Link>
+        <Link href='/medias' className='text-white text-2xl font-medium text-center whitespace-nowrap'>Aperçu</Link>
         <div className="flex-grow border-t border-gray-500"></div>
       </div>
       <div className="carousel w-full mx-auto overflow-hidden">
@@ -47,9 +47,7 @@ function Media() {
             alt="img5"
             width={300}
             height={300}
-            className="h-[300px] object-contain" width={500}
-            height={500}
-            className="h-[500px] object-contain"
+            className="h-[300px] object-contain"
           />
 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between md:justify-around">
             <a href="#slide2" className="btn btn-circle">❮</a>

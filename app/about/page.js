@@ -39,7 +39,7 @@ function AboutUsPage() {
       </div>
       </section>
 
-      <section id='commissions' className="py-16 bg-white px-6">
+      <section id='commissions' className="py-16 bg-gray-100 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-semibold text-center mb-10">Nos commissions</h2>
         <Carousel/>
