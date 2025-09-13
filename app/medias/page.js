@@ -1,30 +1,30 @@
 'use client'
 import React, { useState } from 'react'
+import Image from 'next/image'
 import medias from '../data/images.json'
 
 const categories = [
-  'Toutes les commissions',
   'Cinéma',
   'Lecture',
   'Kermesse',
   'Nature',
   'Musique',
   'Bénévolat',
-  'Théâtre'
+  'Théâtre',
+  'Evenements'
 ]
 
 function Page() {
-  const [selected, setSelected] = useState('Toutes les commissions')
+  const [selected, setSelected] = useState('Cinéma')
 
   const filtered =
-    selected === 'Toutes les commissions'
+    selected === ''
       ? medias
       : medias.filter(item => item.commission === selected)
 
   return (
-    <div className="px-4 md:px-8">
-      {/* Boutons de filtre */}
-      <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
+    <div className='px-4 md:px-8'>
+      <div className='flex items-center justify-center py-4 md:py-8 flex-wrap'>
         {categories.map(cat => (
           <button
             key={cat}
@@ -41,19 +41,26 @@ function Page() {
         ))}
       </div>
 
-      {/* Galerie Masonry */}
-      <div className="columns-1 sm:columns-2 md:columns-3 gap-4">
+      <div className='columns-1 sm:columns-2 md:columns-3 gap-4'>
         {filtered.map((item, idx) => (
-          <div key={idx} className="mb-4 break-inside-avoid">
+          <div key={idx} className='mb-4 break-inside-avoid relative group'>
             {item.type === 'images' ? (
-              <img
-                src={item.url}
-                alt={item.title}
-                className="w-full rounded-lg"
-              />
+              <>
+                <Image
+                width={400}
+                height={400}
+                unoptimized
+                  src={item.url}
+                  alt={item.title}
+                  className='w-full rounded-lg transition duration-300 group-hover:blur-sm'
+                />
+                <div className='absolute inset-0 flex items-center justify-center text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition duration-300'>
+                  {item.title}
+                </div>
+              </>
             ) : (
-              <video controls className="w-full rounded-lg">
-                <source src={item.url} type="video/mp4" />
+              <video controls className='w-full rounded-lg'>
+                <source src={item.url} type='video/mp4' />
               </video>
             )}
           </div>

@@ -15,7 +15,7 @@ function Presentation() {
         </div>
         <div className='p-6'>
             <h1 className='text-base font-bold text-red-700'>Qui sommes-nous?</h1>
-      <h1 className='mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-gray-900'>Numidi Arts,<br/>Plus qu'une association</h1>
+      <h1 className='mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-gray-900'>Numidi Arts,<br/>Plus qu&apos;une association</h1>
 <div className="border-t-4 border-red-700 my-4 w-1/4 "></div>
       <p className='mt-4 text-gray-600 text-sm font-medium leading-6'>Little Bangladesh Merchants Association is built on a strong foundation of community engagement, partnerships, and a commitment to sustainable development. And with a strong belief in bringing civic and economic opportunities for the residents and to the stakeholders and our other partners.
 

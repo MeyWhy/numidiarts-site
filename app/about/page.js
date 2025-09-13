@@ -57,13 +57,13 @@ function AboutUsPage() {
   
       <section className="py-20 bg-red-200 text-center">
         <h3 className="text-2xl font-semibold mb-4">Envie de nous rejoindre ?</h3>
-        <p className="text-gray-700 mb-8">Participez à nos événements et devenez membre de l'association !</p>
-        <button className='mt-6 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg
+        <p className="text-gray-700 mb-8">Participez à nos événements et devenez membre de l&apos;association !</p>
+        <a href='https://forms.gle/FPAPyQxFeCnZxiFbA' className='mt-6 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg
     bg-red-700 text-white rounded-lg font-medium border-2 border-red-700
     shadow-none hover:bg-transparent hover:text-red-700 transition-[box-shadow,color]  duration-500 ease-in-out
     focus:outline-none focus:ring-0'>
           Rejoignez-nous
-        </button>
+        </a>
       </section>
 
     </div>

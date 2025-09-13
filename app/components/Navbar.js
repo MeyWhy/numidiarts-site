@@ -14,7 +14,7 @@ function Navbar() {
     <div className='flex items-center justify-between h-full'>
         <div className='flex items-center'>
              <div className='flex-shrink-0'>
-       <a href='/' className='flex items-center space-x-2'>  <Image
+       <Link href='/' className='flex items-center space-x-2'>  <Image
       src="/images/numidiartslogo.png"
       className='mx-0'
       width={90}
@@ -26,7 +26,7 @@ function Navbar() {
           <span className='text-red-700 font-semibold text-2xl leading-none'>Numidi </span>
           <span className='text-red-700 font-semibold text-2xl leading-none'>Arts </span>
 </div>
-    </a>
+    </Link>
         </div>
         </div>
          <div className='hidden md:block'>
@@ -37,7 +37,7 @@ function Navbar() {
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
            <Link href='/about'className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
-            L'association
+            L&apos;association
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
            <Link href='/medias' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
@@ -92,7 +92,7 @@ function Navbar() {
                      <Link href='/' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>
             Accueil
             </Link>
-       <Link href='/about' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            L'association
+       <Link href='/about' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            L&apos;association
         </Link>
        <Link href='/medias' className='block hover:bg-white hover:text-red-700 text-gray-600 uppercase text-sm font-medium hover:font-semibold rounded-lg p-4'>            Médias
         </Link>

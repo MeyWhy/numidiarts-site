@@ -31,11 +31,11 @@ function NextEvent() {
           <p className='text-gray-500'>13 Juillet - 16 Juillet 2024</p>
           <p className='text-red-700'>Cinémathèque Ennasr</p>
           <p>
-            Première : à 15h00 "Fleur du désert" court-métrage du réalisateur Osama Ben Hussein.
-            Le film sera suivi d'une discussion en présence du réalisateur. La deuxième projection :
-            à 17h30 "Les murs du château des sept" Long-métrage du réalisateur Ahmed Rachedi.
-            Le film sera suivi d'une discussion en l'absence du réalisateur qui s'est excusé.
-            L'invitation est ouverte à tous les amateurs du septième art.
+            Première : à 15h00 &quot;Fleur du désert&quot; court-métrage du réalisateur Osama Ben Hussein.
+            Le film sera suivi d&apos;une discussion en présence du réalisateur. La deuxième projection :
+            à 17h30 &quot;Les murs du château des sept&quot; Long-métrage du réalisateur Ahmed Rachedi.
+            Le film sera suivi d&apos;une discussion en l&apos;absence du réalisateur qui s&apos;est excusé.
+            L&apos;invitation est ouverte à tous les amateurs du septième art.
           </p>
           <div className="card-actions justify-end">
             <Link href='/events' className="btn bg-white hover:bg-red-300">&rarr;</Link>
