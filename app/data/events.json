@@ -1,36 +1,44 @@
-[{
-    "title": "Festival des Arts Numidiens",
-    "date": "2024-08-10 | 10:00",
-    "location": "Maison de la Culture Malek Haddad",
-    "description": "Une journée de célébration des arts visuels, des spectacles de danse contemporaine et des performances musicales mettant en avant les jeunes talents constantinois.",
-    "image": "/images/affichetest.jpg"
+[
+  {
+    "title": "Soirée solidaire - Fidèles à George Ibrahim Abdallah",
+    "date": "02 août 2025, 16h00",
+    "location": "Musée du cinéma Constantine (Cinémathèque), Salle Ennasser",
+    "description": "Soirée cinématographique solidaire avec la projection du film 'Fedayin, le combat de George Ibrahim Abdallah', réalisé par le collectif Vacarme. Une initiative pour la solidarité avec le peuple palestinien et pour la vitalisation du mouvement cinématographique. Projection suivie d’une discussion.",
+    "image": "/images/affiches/affichefedayin.jpg"
   },
   {
-    "title": "Atelier d'initiation à la peinture pour enfants",
-    "date": "2024-09-03 | 15:00",
-    "location": "Centre Culturel Ziadia",
-    "description": "Une activité ludique et éducative où les enfants découvrent les bases de la peinture et expriment leur créativité dans une ambiance bienveillante.",
-    "image": "/images/affichetest.jpg"
+    "title": "Soirée cinématographique - Hamza Rhioui & Matteo Garrone",
+    "date": "19 juillet 2025, 16h00",
+    "location": "Musée du cinéma Constantine (Cinémathèque), Salle Ennasser",
+    "description": "Soirée spéciale avec deux projections : '54' (court-métrage de 17 minutes, 2025) du réalisateur constantinois Hamza Rhioui, suivi de 'Moi Capitaine' du réalisateur italien Matteo Garrone. Chaque projection sera suivie d’un débat.",
+    "image": "/images/affiches/afiche.png"
   },
   {
-    "title": "Exposition photo 'Mémoire de Constantine'",
-    "date": "2024-10-15 | 16:00",
-    "location": "Musée National Cirta",
-    "description": "Une exposition collective réunissant les clichés de photographes amateurs et professionnels retraçant l’histoire et les visages de la ville de Constantine.",
-    "image": "/images/affichetest.jpg"
+    "title": "Projection - Chronique des années de braise",
+    "date": "29 mai 2025, 13h30",
+    "location": "Salle Tahar Hennach, Maison de la Culture Malek Haddad, Constantine",
+    "description": "Projection du film 'Chronique des années de braise', Palme d’or à Cannes 1975, du grand réalisateur algérien Mohammed Lakhdar-Hamina. Hommage à sa mémoire et contribution à la vitalisation du mouvement cinématographique. Séance suivie d’une discussion.",
+    "image": "/images/affiches/anneedebraise.jpg"
   },
   {
-    "title": "Projection-débat : Cinéma et société",
-    "date": "2024-11-07 | 14:00",
-    "location": "Cinémathèque Ennasr",
-    "description": "Projection du film 'Papicha' suivie d’un débat avec des invités du monde culturel sur le rôle du cinéma dans l’évolution sociale en Algérie.",
-    "image": "/images/affichetest.jpg"
+    "title": "Projection documentaire - Les Orphelins du 08 mai 45",
+    "date": "17 mai 2025, 14h00",
+    "location": "Musée du cinéma Constantine (Cinémathèque), Salle Ennasser",
+    "description": "Documentaire du réalisateur algérien Achour Djellabi retraçant les massacres du 08 mai 1945. Un pan important du récit national pour la mémoire et la vitalisation du mouvement cinématographique. Séance suivie d’une discussion en présence du réalisateur.",
+    "image": "/images/affiches/orphelindu45.jpg"
   },
   {
-    "title": "Journée solidaire : art et enfance",
-    "date": "2024-12-19 | 16:30",
-    "location": "Orphelinat de Sidi Mabrouk",
-    "description": "Des artistes bénévoles animent une journée d’ateliers artistiques pour enfants, accompagnée de spectacles de marionnettes et de dons de matériel scolaire.",
-    "image": "/images/affichetest.jpg"
+    "title": "Projection - Lala Zbida Ounass",
+    "date": "10 mai 2025, 14h00",
+    "location": "Musée du cinéma Constantine (Cinémathèque), Salle Ennasser",
+    "description": "Projection du film 'Lala Zbida Ounass' du réalisateur algérien Yahia Mazahim (2015), produit par le CADC. L’événement vise à activer le mouvement cinématographique dans la wilaya. La séance sera suivie d’une discussion.",
+    "image": "/images/affiches/lala.png"
+  },
+  {
+    "title": "Les Zinzins du Cinéma - Mini-édition Saïd Oulmi",
+    "date": "14-16 avril 2025",
+    "location": "Marouana, Batna",
+    "description": "Les Zinzins du Cinéma de Numidi-Arts s'invitent à Marouana, ville hospitalière et généreuse de Batna, pour partager leur passion du cinéma. Cette mini-édition sera consacrée à l'œuvre du grand réalisateur algérien Saïd Oulmi.",
+    "image": "/images/affiches/oulmi.jpg"
   }
 ]
