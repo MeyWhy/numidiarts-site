@@ -16,19 +16,27 @@ const categories = [
 
 function Page() {
   const [selected, setSelected] = useState('Cinéma')
+  const [loading, setLoading]= useState(false)
 
   const filtered =
     selected === ''
       ? medias
       : medias.filter(item => item.commission === selected)
+  const handleCategoryClick =(cat)=>{
+    setSelected(cat)
+    setLoading(true)
 
+    setTimeout(()=>{
+      setLoading(false)
+    }, 800)
+  }
   return (
     <div className='px-4 md:px-8'>
       <div className='flex items-center justify-center py-4 md:py-8 flex-wrap'>
         {categories.map(cat => (
           <button
             key={cat}
-            onClick={() => setSelected(cat)}
+            onClick={() => handleCategoryClick(cat) }
             className={`text-base font-medium px-5 py-2.5 text-center me-3 mb-3 rounded-full border transition-all
               ${
                 selected === cat
@@ -40,7 +48,13 @@ function Page() {
           </button>
         ))}
       </div>
-
+      {
+        loading ? (
+          <div className='flex justify-center items-center py-20'>
+            <span className='loading loading-spinner loading-xl text-blue-600'></span>
+            </div>
+        ) : (
+        
       <div className='columns-1 sm:columns-2 md:columns-3 gap-4'>
         {filtered.map((item, idx) => (
           <div key={idx} className='mb-4 break-inside-avoid relative group'>
@@ -66,6 +80,9 @@ function Page() {
           </div>
         ))}
       </div>
+        
+        )
+      }
     </div>
   )
 }

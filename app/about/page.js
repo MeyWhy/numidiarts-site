@@ -4,7 +4,7 @@ import Presentation from '../components/Home/Presentation'
 import Valeurs from '../components/About/Valeurs'
 import Carousel from '../components/About/Carousel'
 import More from '../components/About/More'
-
+import Link from 'next/link'
 function AboutUsPage() {
   return (
     <div className="bg-gray-50 text-gray-800">
@@ -43,12 +43,14 @@ function AboutUsPage() {
 
       <section id='commissions' className="py-16 bg-gray-100 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-semibold text-center mb-10">Nos commissions</h2>
+          <h2 className="text-3xl font-semibold text-center mb-7">Nos commissions</h2>
         <Carousel/>
+        <div className='flex justify-center'>
+         <a href='/files/maquette.pdf' download className='block mx-auto text-center underline text-red-500'>Ci joint, une maquette de toutes nos commissions</a>
+        </div>
         </div>
       </section>
 
-      
       <section id='valeurs' className="py-16 bg-red-50 px-6">
         <div className="mx-auto">
           <h2 className="text-3xl font-semibold text-center mb-10">Nos valeurs</h2>
