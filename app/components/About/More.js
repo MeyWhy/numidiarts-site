@@ -6,16 +6,17 @@ function More() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4 sm:px-6">
       <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-10">
  
-        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
+        <div className="w-full md:w-1/2 space-y-6 text-left md:text-left">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Notre Histoire</h1>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-            Depuis sa création en 2002, l&apos;association <strong>Numidi Arts</strong> s&apos;engage à promouvoir la culture, l&apos;art, et la solidarité à Constantine. 
+            Depuis sa création, l&apos;association <strong>Numidi Arts</strong> s&apos;engage à promouvoir la culture, l&apos;art, et la solidarité à Constantine. 
             Animée par une équipe de passionnés, elle organise régulièrement des événements qui rassemblent, émeuvent et inspirent — des ateliers pour enfants, 
-            des projections, des journées solidaires et bien plus encore.
+            des projections-débats, des cafés littéraires, des journées solidaires et bien plus encore.
           </p>
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-            Notre but est simple : créer du lien et semer des graines d&apos;humanité par l&apos;art et l&apos;engagement. Rejoignez-nous dans cette belle aventure.
-          </p>
+          <p className="text-base sm:text-lg text-gray-600 ">
+            Notre but est simple : </p>
+             <ul className='list-disc sm:text-lg text-base px-7'> <li>Promouvoir l&apos;acte théâtral </li> <li>Réconcilier les gens avec la culture </li> <li>Dynamiser la vie dans les quartiers</li></ul> 
+         
         </div>
 
         <div className="w-full md:w-1/2 flex justify-center">

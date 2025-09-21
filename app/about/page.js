@@ -10,7 +10,7 @@ function AboutUsPage() {
     <div className="bg-gray-50 text-gray-800">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center">
         <Image
-          src="/images/hero.jpg"
+          src="/images/_MG_3660.jpg"
           alt="Numidi Art Hero"
           layout="fill"
           objectFit="cover"
@@ -18,7 +18,7 @@ function AboutUsPage() {
         />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-            Ensemble, la culture rayonne.
+             Les zinzins de la culture, semeurs d'art.
           </h1>
           <p className="text-lg text-white mt-4 max-w-2xl mx-auto">
             Découvrez notre histoire, nos missions, et ce qui nous anime au quotidien.
@@ -38,6 +38,8 @@ function AboutUsPage() {
         <More/>
       </div>
       </section>
+
+    
 
       <section id='commissions' className="py-16 bg-gray-100 px-6">
         <div className="max-w-6xl mx-auto">

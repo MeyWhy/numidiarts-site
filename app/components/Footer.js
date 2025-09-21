@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-//TODO add links to social media
 function Footer() {
   return (
     <div>
@@ -8,12 +7,14 @@ function Footer() {
   <nav className="grid grid-flow-col gap-4">
     <Link href='/about' className="link link-hover">L&apos;association</Link>
     <Link href='/contact' className="link link-hover">Contact</Link>
-    <Link href='/' className="link link-hover">Politique de Confidentialité</Link>
     <Link href='/medias' className="link link-hover">Médias</Link>
   </nav>
 
   <aside>
     <p>Copyright Numidi Arts © {new Date().getFullYear()} - All right reserved by Mey Yaou</p>
+   <p className="text-sm mt-2">
+            Nous ne collectons aucune donnée, aucun cookie, sauf ceux éventuels de l’hébergeur ou de services externes comme Google.
+          </p>
   </aside>
 </footer>
 
