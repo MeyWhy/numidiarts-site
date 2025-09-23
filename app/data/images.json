@@ -139,7 +139,24 @@
     "type": "images",
     "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Zinzins%20de%20la%20lecture.jpg"
   },
-   
+       {
+    "title": "Les Zinzins de la Lecture: Hommage à Hamid Ali-Bouacida",
+    "commission": "Lecture",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/31963839_1829034363783273_111701108547649536_n.jpg"
+  }, 
+     {
+    "title": "Les Zinzins de la Lecture:  Hommage à Hamid Ali-Bouacida",
+    "commission": "Lecture",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/31959102_1829033653783344_1911908991076663296_n.jpg"
+  },
+   {
+    "title": "Les Zinzins de la Lecture:  Hommage à Hamid Ali-Bouacida",
+    "commission": "Lecture",
+    "type": "video",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Hommage%20a%20Hamid%20Ali%20Bouacida%20par%20Numidi-Arts%20Constantine.mp4"
+  },
      {
     "title": "Les Zinzins de la Lecture: Edition 1",
     "commission": "Lecture",
@@ -188,18 +205,7 @@
     "type": "images",
     "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/464627471_8742738759079431_4388579847718649969_n.jpg"
   }, 
-     {
-    "title": "Les Zinzins de la Lecture: Hommage à Hamid Ali-Bouacida",
-    "commission": "Lecture",
-    "type": "images",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/31963839_1829034363783273_111701108547649536_n.jpg"
-  }, 
-     {
-    "title": "Les Zinzins de la Lecture:  Hommage à Hamid Ali-Bouacida",
-    "commission": "Lecture",
-    "type": "images",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/31959102_1829033653783344_1911908991076663296_n.jpg"
-  },
+ 
    {
     "title": "Les Zinzins du Cinéma Presse",
     "commission": "Cinéma",
@@ -314,6 +320,127 @@
     "type": "images",
     "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cin%C3%A9Likoum2.jpg"
   },
+    {
+    "title": "Ciné-Ramdhan Presse",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cineramdanpresse.jpg"
+  },
+  {
+    "title": "Cineclub Ciné-Mômes 2017",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/ccinemome2017.jpg"
+  },
+   {
+    "title": "Cineclub Ciné-Mômes 2017",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": ""
+  },
+   {
+    "title": "Cineclub Ciné-Mômes 2017",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinmome.jpg"
+  },
+   {
+    "title": "Cineclub Ciné-Mômes 2017",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinemome2017a.jpg"
+  },
+   {
+    "title": "Cineclub Ciné-Mômes 2017",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinemome20177.jpg"
+  },
+   {
+    "title": "Cineclub Ciné-Mômes 2017",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinemome2017.jpg"
+  },
+    {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 1",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinecirta1.jpg"
+  },
+    {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 1",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinecirta2.jpg"
+  },
+    {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 1",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinecirta3.jpg"
+  },
+   {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 2 Conference Avec Ahmed Meliani",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/conference.jpg"
+  },
+   {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 2 Conference Avec Abdelmadjid Merdaci",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/conferencemerdaci.jpg"
+  },
+   {
+    "title": "Les Zinzins du Cinéma",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/equipe.jpg"
+  },
+   {
+    "title": "Les Zinzins du Cinéma",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/equipee.jpg"
+  },
+   {
+    "title": "Les Zinzins du Cinéma",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/equipezinzins.jpg"
+  },
+    {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 1",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinecirta4.jpg"
+  },
+    {
+    "title": "Ciné Cirta: Cinéma & Mémoire Edition 1",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cinecirta5.jpg"
+  },
+    {
+    "title": "Ciné-club Les Zinzins",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cineclub1.jpg"
+  },
+    {
+    "title": "Ciné-club Les Zinzins",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cineclubpublic.jpg"
+  },
+    {
+    "title": "Ciné-club Les Zinzins",
+    "commission": "Cinéma",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/cineclubzinzins.jpg"
+  },
+  
     {
     "title": "Les Zinzins avec Alloui",
     "commission": "Cinéma",
@@ -945,19 +1072,35 @@
     "type": "images",
     "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/465661868_8786144088072231_254544589240348285_n.jpg" 
    },
-  {
+     {
+    "title": "Rencontre des Z'arts: 1ere Edition",
+    "commission": "Evenements",
+    "type": "video",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9%20%D9%86%D9%88%D9%85%D9%8A%D8%AF%D9%8A%D8%A7%20%D9%81%D9%86%D9%88%D9%86%20%D8%AA%D8%B1%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%84%D9%84%D8%A7%D9%85%D8%A7%D9%83%D9%86%20%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9%20%D8%A8%D9%82%D8%B3%D9%86%D8%B7%D9%8A%D9%86%D8%A9.mp4" 
+     },
+    {
     "title": "Rencontre des Zinzins à l'Université Mentouri",
     "commission": "Evenements",
     "type": "images",
     "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/30724809_1808601962493180_6818230092427165696_n.jpg"
   },
   {
+    "title": "Rencontre des Zinzins à l'Université Mentouri",
+    "commission": "Evenements",
+    "type": "images",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Constantine%20Universit%C3%A9%20des%20Fr%C3%A8res%20Mentouri%20%28%28Numidi-Arts%20association%20culturelle%20%29%29.mp4"
+  },
+  {
     "title": "Zinzins du Café Riche",
     "commission": "Evenements",
     "type": "images",
     "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/img4.jpg"
+  }, {
+    "title": "Zinzins du Café Riche",
+    "commission": "Evenements",
+    "type": "video",
+    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Benjamin%20Stora%20invit%C3%A9%20aux%20rencontres%20Houna%20Quassantina.mp4"
   },
-
    {
     "title": "Zinzins du Café Riche",
     "commission": "Evenements",
