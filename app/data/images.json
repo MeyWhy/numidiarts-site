@@ -167,7 +167,7 @@
     "title": "Les Zinzins de la Lecture:  Hommage à Hamid Ali-Bouacida",
     "commission": "Lecture",
     "type": "video",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Hommage%20a%20Hamid%20Ali%20Bouacida%20par%20Numidi-Arts%20Constantine.mp4"
+    "url": "https://res.cloudinary.com/dmebh8ysb/video/upload/v1759007918/Hommage_a_Hamid_Ali_Bouacida_par_Numidi-Arts_Constantine_yoepcq.mp4"
   },
      {
     "title": "Les Zinzins de la Lecture: Edition 1",
@@ -223,6 +223,12 @@
     "commission": "Cinéma",
     "type": "images",
     "url": "https://res.cloudinary.com/dmebh8ysb/image/upload/v1758745780/presse2_rhwgj3.jpg"
+  },
+   {
+    "title": "Les Zinzins du Cinéma",
+    "commission": "Cinéma",
+    "type": "video",
+    "url": "https://res.cloudinary.com/dmebh8ysb/video/upload/v1759010555/%D9%82%D8%B3%D9%86%D8%B7%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D9%8A%D8%A9_%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9_%D9%86%D9%88%D9%85%D9%8A%D8%AF%D9%8A%D8%A7_%D9%81%D9%86%D9%88%D9%86_%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF_%D9%84%D8%A7%D8%AD%D8%AA%D8%B6%D8%A7%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85_%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D9%85%D8%A7%D8%A6%D9%8A%D8%A9_%D9%84%D9%84%D9%87%D9%88%D8%A7%D8%A9_zxjuqp.mp4"
   },
      {
     "title": "Les Zinzins du Cinéma Presse",
@@ -1218,7 +1224,7 @@
     "title": "Rencontre des Z'arts: 1ere Edition",
     "commission": "Evenements",
     "type": "video",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9%20%D9%86%D9%88%D9%85%D9%8A%D8%AF%D9%8A%D8%A7%20%D9%81%D9%86%D9%88%D9%86%20%D8%AA%D8%B1%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%84%D9%84%D8%A7%D9%85%D8%A7%D9%83%D9%86%20%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9%20%D8%A8%D9%82%D8%B3%D9%86%D8%B7%D9%8A%D9%86%D8%A9.mp4" 
+    "url": "https://res.cloudinary.com/dmebh8ysb/video/upload/v1758824206/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9_%D9%86%D9%88%D9%85%D9%8A%D8%AF%D9%8A%D8%A7_%D9%81%D9%86%D9%88%D9%86_%D8%AA%D8%B1%D8%AF_%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1_%D9%84%D9%84%D8%A7%D9%85%D8%A7%D9%83%D9%86_%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9_%D8%A8%D9%82%D8%B3%D9%86%D8%B7%D9%8A%D9%86%D8%A9_ojvxvz.mp4" 
      },
     {
     "title": "Rencontre des Zinzins à l'Université Mentouri",
@@ -1230,7 +1236,7 @@
     "title": "Rencontre des Zinzins à l'Université Mentouri",
     "commission": "Evenements",
     "type": "video",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Constantine%20Universit%C3%A9%20des%20Fr%C3%A8res%20Mentouri%20%28%28Numidi-Arts%20association%20culturelle%20%29%29.mp4"
+    "url": "https://res.cloudinary.com/dmebh8ysb/video/upload/v1759007849/Constantine_Universit%C3%A9_des_Fr%C3%A8res_Mentouri_Numidi-Arts_association_culturelle_bjxita.mp4"
   },
   {
     "title": "Zinzins du Café Riche",
@@ -1241,7 +1247,7 @@
     "title": "Zinzins du Café Riche",
     "commission": "Evenements",
     "type": "video",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/Benjamin%20Stora%20invit%C3%A9%20aux%20rencontres%20Houna%20Quassantina.mp4"
+    "url": "https://res.cloudinary.com/dmebh8ysb/video/upload/v1758824559/Benjamin_Stora_invit%C3%A9_aux_rencontres_Houna_Quassantina_tx8yl8.mp4"
   },
    {
     "title": "Zinzins du Café Riche",
@@ -1361,7 +1367,7 @@
     "title": "Zinzins du Café Riche",
     "commission": "Evenements",
     "type": "video",
-    "url": "https://t26z6f23t7dvbmsv.public.blob.vercel-storage.com/caferiche.mp4"
+    "url": "https://res.cloudinary.com/dmebh8ysb/video/upload/v1758824394/caferiche_dadmvu.mp4"
   }
 
 ]
