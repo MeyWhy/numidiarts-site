@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className="relative h-screen bg-cover bg-center bg-no-repeat text-white" style={{ backgroundImage: "url('/images/background-hero.jpg')" }}>
+    <div className="relative h-screen bg-cover bg-center bg-no-repeat text-white" style={{ backgroundImage: "url('./images/background-hero.jpg')" }}>
       <div className="absolute inset-0 bg-black opacity-[.67]"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center h-full px-4">

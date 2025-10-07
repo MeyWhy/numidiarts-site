@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://res.cloudinary.com data:; media-src 'self' https://res.cloudinary.com;  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';"/>
+        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://res.cloudinary.com/dmebh8ysb/ data:; media-src 'self' https://res.cloudinary.com/dmebh8ysb/;  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';"/>
       </head>
       <body
         className={`${font.className} antialiased`}
