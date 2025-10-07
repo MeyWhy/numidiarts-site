@@ -18,7 +18,7 @@ function AboutUsPage() {
         />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-             Les zinzins de la culture, semeurs d'art.
+             Les zinzins de la culture, semeurs d&apos;art.
           </h1>
           <p className="text-lg text-white mt-4 max-w-2xl mx-auto">
             Découvrez notre histoire, nos missions, et ce qui nous anime au quotidien.
