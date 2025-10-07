@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { withBase } from '@/utils/basePath'
 function NextEvent() {
   return (
     <div className='w-full sm:w-1/2 mx-auto px-4 relative'>
@@ -19,7 +20,7 @@ function NextEvent() {
           <Image
             width={160}
             height={160}
-            src="/images/affiches/nextev.jpg"
+            src={withBase("/images/affiches/nextev.jpg")}
             alt="affiche"
             className="sm:w-[100%] sm:h-auto object-cover rounded-lg"
           />

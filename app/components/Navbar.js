@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
+import { withBase } from '@/utils/basePath';
 function Navbar() {
     const [isClick, setisClick]=useState(false);
     const toggleNavbar = ()=>{
@@ -15,7 +16,7 @@ function Navbar() {
         <div className='flex items-center'>
              <div className='flex-shrink-0'>
        <Link href='/' className='flex items-center space-x-2'>  <Image
-      src="/images/numidiartslogo.png"
+      src={withBase("/images/numidiartslogo.png")}
       className='mx-0'
       width={90}
       height={40}

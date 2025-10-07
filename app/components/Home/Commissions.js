@@ -1,35 +1,36 @@
 import React from 'react'
+import { withBase } from '@/utils/basePath';
 import CommissionCard from './CommissionCard'
 
 const commissions = [
   {
     title: 'Les Zinzins du Théâtre',
-    image: '/images/img2.jpg',
+    image: withBase('/images/img2.jpg'),
     description: `Une commission qui s'occupe de créer les conditions de formation, de production et de diffusion de pièces de théâtre et de spectacles d'animation.`
   },
   {
     title: 'Les Zinzins du Cinéma',
-    image: '/images/img1.jpg',
+    image: withBase('/images/img1.jpg'),
     description: `Ciné-club animé par des membres passionnés de cinéma, qui organisent des projections, débats et rencontres autour du 7e art.`
   },
   {
     title: 'Les Zinzins de la Lecture',
-    image: '/images/img6.jpg',
+    image: withBase('/images/img6.jpg'),
     description: `Réunit enfants, jeunes et adultes passionnés de livres pour échanger et débattre autour de lectures diverses.`
   },
   {
     title: 'Les Zinzins de la Musique',
-    image: '/images/background-hero.jpg',
+    image: withBase('/images/background-hero.jpg'),
     description: `Commission dédiée à la promotion de la musique à travers des ateliers, concerts et créations musicales collectives.`
   },
   {
     title: 'Les Zinzins de la Nature',
-    image: '/images/img5.jpg',
+    image: withBase('/images/img5.jpg'),
     description: `Œuvre pour l’assainissement, l’écotourisme et la sensibilisation écologique à travers des actions de terrain.`
   },
   {
     title: 'Bénévolat',
-    image: '/images/benevolat.jpg',
+    image: withBase('/images/benevolat.jpg'),
     description: `Actions solidaires au profit d’enfants, personnes âgées et familles, grâce à des campagnes, dons et visites sociales.`
   }
 ]

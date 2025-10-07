@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { withBase } from '@/utils/basePath'
 function Media() {
   return (
     <div className='bg-gray-900 py-10'>
@@ -10,10 +11,10 @@ function Media() {
         <div className="flex-grow border-t border-gray-500"></div>
       </div>
       <div className="carousel w-full mx-auto overflow-hidden">
-        {/* Slide 1 */}
+        {/* slide 1 */}
         <div id="slide1" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/images/img3.jpg"
+            src={withBase("/images/img3.jpg")}
             alt="img3"
             width={500}
             height={500}
@@ -25,10 +26,10 @@ function Media() {
           </div>
         </div>
 
-        {/* Slide 2 */}
+        {/* slide 2 */}
         <div id="slide2" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/images/img4.jpg"
+            src={withBase("/images/img4.jpg")}
             alt="img4"
             width={500}
             height={500}
@@ -43,8 +44,9 @@ function Media() {
         {/* Slide 3 */}
         <div id="slide3" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/images/img5.jpg"
+            src={withBase("/images/img5.jpg")}
             alt="img5"
+
             width={300}
             height={300}
             className="h-[300px] object-contain"
@@ -58,7 +60,7 @@ function Media() {
         {/* Slide 4 */}
         <div id="slide4" className="carousel-item relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center ">
           <Image
-            src="/images/img1.jpg"
+            src={withBase("/images/img1.jpg")}
             alt="img1"
             width={500}
             height={500}

@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import { withBase } from '@/utils/basePath';
 //TODO might add a stack daisy ui
 function Presentation() {
   return (
     <div className='bg-gray-200 pt-24 pb-16'>
       <div className='w-[95%] sm:w-[80%] mx-auto items-center grid grid-cols-1 lg:grid-cols-2 gap-10'>
         <div>
-          <Image src='/images/quisommesnous.jpg'
+          <Image src={withBase('/images/quisommesnous.jpg')}
           alt='image'
           width={400}
           height={400}
