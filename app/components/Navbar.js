@@ -37,19 +37,19 @@ function Navbar() {
             Accueil
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/about'className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
+           <Link href={withBase('/about')}className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             L&apos;association
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/medias' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
+           <Link href={withBase('/medias')} className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Médias            
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/events' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
+           <Link href={withBase('/events')} className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Evénements
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-           <Link href='/contact' className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
+           <Link href={withBase('/contact')} className='group relative text-gray-600 uppercase text-sm font-medium hover:font-semibold py-8'>
             Contact
             <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </Link>
