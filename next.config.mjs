@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  output: 'export',
+const nextConfig = {
+  output: 'export', // Generate static HTML
   images: { unoptimized: true },
   basePath: '/numidiarts-site',
   assetPrefix: '/numidiarts-site/',
 };
+
+export default nextConfig;
