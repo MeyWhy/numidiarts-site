@@ -1,19 +1,19 @@
 import React from 'react'
-
+//todo add logo
 export default function Page() {
   return (
     <main className="flex justify-center bg-gray-50 p-4 sm:p-6">
       <div className="w-full sm:w-4/5 md:w-2/3 lg:w-1/2 max-w-3xl bg-white shadow-lg rounded-2xl p-6 sm:p-8">
         <header className="mb-6">
-          <h1 className="text-2xl sm:text-3xl font-semibold">Association Numidi Arts</h1>
+          <h1 className="text-2xl sm:text-3xl font-semibold dark:text-gray-800">Association Numidi Arts</h1>
           <p className="mt-1 text-sm text-gray-600">Coordonnées</p>
         </header>
 
         <section className="space-y-6">
           <div>
-            <h2 className="text-base sm:text-lg font-medium flex items-center gap-2">
+            <h2 className="text-base dark:text-gray-800 sm:text-lg font-medium flex items-center gap-2">
               <svg
-                className="w-6 h-6 text-gray-800 dark:text-white"
+                className="w-6 h-6 text-gray-800 dark:text-gray-900"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -32,10 +32,10 @@ export default function Page() {
           </div>
 
           <div>
-            <h2 className="text-base sm:text-lg font-medium flex items-center gap-2">
+            <h2 className="text-base dark:text-gray-800 sm:text-lg font-medium flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5 text-gray-700"
+                className="w-5 h-5 text-gray-700 dark:text-gray-900"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -53,11 +53,11 @@ export default function Page() {
           </div>
 
           <div>
-            <h2 className="text-base sm:text-lg font-medium">Réseaux sociaux</h2>
+            <h2 className="text-base sm:text-lg font-medium dark:text-gray-800">Réseaux sociaux</h2>
             <ul className="mt-2 list-none space-y-2 text-gray-700">
               <li className="flex items-center gap-2">
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  className="w-6 h-6 text-gray-800 dark:text-gray-900"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
                   viewBox="0 0 24 24"
@@ -80,7 +80,7 @@ export default function Page() {
 
               <li className="flex items-center gap-2">
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  className="w-6 h-6 text-gray-800 dark:text-gray-900"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

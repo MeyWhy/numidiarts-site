@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { withBase } from '@/utils/basePath'
 //TODO add more history here
 function More() {
   return (
@@ -23,17 +24,17 @@ function More() {
           <div className="stack stack-start w-48 sm:w-64 md:w-72 lg:w-80">
             <div className="border-base-content card bg-base-100 border text-center">
               <div className="card-body p-0">
-                <Image src="/images/hero.jpg" width={400} height={400}  alt="Event 1" className="w-full h-full object-cover rounded-lg" />
+                <Image src={withBase("/images/hero.jpg")} width={400} height={400}  alt="Event 1" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
             <div className="border-base-content card bg-base-100 border text-center">
               <div className="card-body p-0">
-                <Image src="/images/quisommesnous.jpg" width={400} height={400} alt="Event 2" className="w-full h-full object-cover rounded-lg" />
+                <Image src={withBase("/images/quisommesnous.jpg")} width={400} height={400} alt="Event 2" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
             <div className="border-base-content card bg-base-100 border text-center">
               <div className="card-body p-0">
-                <Image src="/images/hero.jpg" width={400} height={400} alt="Event 3" className="w-full h-full object-cover rounded-lg" />
+                <Image src={withBase("/images/hero.jpg")} width={400} height={400} alt="Event 3" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
           </div>

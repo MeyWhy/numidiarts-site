@@ -10,7 +10,7 @@ function Hero() {
         <h1 className="text-7xl font-extrabold text-red-700">Numidi Arts</h1>
         <h2 className="text-2xl font-extrabold">Les Zinzins de la Culture</h2>
         <p className="mt-4 max-w-xl">Une jeunesse en action pour réenchanter la cité!</p>
-        <a href='https://forms.gle/FPAPyQxFeCnZxiFbA' className='mt-6 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg
+        <a href='https://forms.gle/FPAPyQxFeCnZxiFbA' className='mt-6 btn btn-md md:btn-md lg:btn-lg xl:btn-lg
     bg-transparent text-red-600 rounded-lg font-medium border-2 border-red-700
     shadow-none hover:bg-red-700  transition-[box-shadow,color] hover:text-white duration-500 ease-in-out
     focus:outline-none focus:ring-0'>

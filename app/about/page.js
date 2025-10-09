@@ -5,12 +5,13 @@ import Valeurs from '../components/About/Valeurs'
 import Carousel from '../components/About/Carousel'
 import More from '../components/About/More'
 import Link from 'next/link'
+import { withBase } from '@/utils/basePath'
 function AboutUsPage() {
   return (
     <div className="bg-gray-50 text-gray-800">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center">
         <Image
-          src="/images/_MG_3660.jpg"
+          src={withBase("/images/_MG_3660.jpg")}
           alt="Numidi Art Hero"
           layout="fill"
           objectFit="cover"
@@ -46,7 +47,7 @@ function AboutUsPage() {
           <h2 className="text-3xl font-semibold text-center mb-7">Nos commissions</h2>
         <Carousel/>
         <div className='flex justify-center'>
-         <a href='/files/maquette.pdf' download className='block mx-auto text-center underline text-red-500'>Ci joint, une maquette de toutes nos commissions</a>
+         <a href={withBase('/files/maquette.pdf')}  target="_blank" rel="noopener noreferrer" className='block mx-auto text-center underline text-red-500'>Ci joint, une maquette de toutes nos commissions</a>
         </div>
         </div>
       </section>
@@ -62,7 +63,7 @@ function AboutUsPage() {
       <section className="py-20 bg-red-200 text-center">
         <h3 className="text-2xl font-semibold mb-4">Envie de nous rejoindre ?</h3>
         <p className="text-gray-700 mb-8">Participez à nos événements et devenez membre de l&apos;association !</p>
-        <a href='https://forms.gle/FPAPyQxFeCnZxiFbA' className='mt-6 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg
+        <a href='https://forms.gle/FPAPyQxFeCnZxiFbA' className='mt-6 btn btn-md md:btn-md lg:btn-lg xl:btn-lg
     bg-red-700 text-white rounded-lg font-medium border-2 border-red-700
     shadow-none hover:bg-transparent hover:text-red-700 transition-[box-shadow,color]  duration-500 ease-in-out
     focus:outline-none focus:ring-0'>

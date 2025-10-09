@@ -7,7 +7,7 @@ function Media() {
     <div className='bg-gray-900 py-10'>
         <div className="flex items-center justify-center gap-4 px-4 mb-8">
         <div className="flex-grow border-t border-gray-500"></div>
-        <Link href='/medias' className='text-white text-2xl font-medium text-center whitespace-nowrap'>Aperçu</Link>
+        <Link href='/medias' className='text-white text-2xl font-medium text-center whitespace-nowrap hover:underline'>Médias</Link>
         <div className="flex-grow border-t border-gray-500"></div>
       </div>
       <div className="carousel w-full mx-auto overflow-hidden">

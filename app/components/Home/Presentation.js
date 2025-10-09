@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { withBase } from '@/utils/basePath';
-//TODO might add a stack daisy ui
 function Presentation() {
   return (
     <div className='bg-gray-200 pt-24 pb-16'>
@@ -21,7 +20,7 @@ function Presentation() {
       <p className='mt-4 text-gray-600 text-sm font-medium leading-6'>Nous sommes une association culturelle dénommée « Numidi-arts » dont les centres d&apos;intérêts embrassent tous les segments de la culture, notamment le théâtre et le cinéma, agréée par la wilaya, en date du 01 juillet 2002 sous le numéro 1841. Elle regroupe, dans sa plus grande majorité des jeunes étudiantes et des étudiants et agit surtout en direction de cette catégorie de citoyens
 
 </p>
-    <Link href='/about/#more' className='btn btn-outline border-red-700 hover:bg-red-700 hover:text-white mt-8 transition-all duration-200'>En savoir plus &rarr;</Link>
+    <Link href='/about/#more' className='btn btn-outline border-red-700 hover:bg-red-700 hover:text-white dark:text-black mt-8 transition-all duration-200'>En savoir plus &rarr;</Link>
         </div>
       </div>
     </div>

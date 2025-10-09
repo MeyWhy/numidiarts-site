@@ -4,31 +4,37 @@ import CommissionCard from './CommissionCard'
 
 const commissions = [
   {
+    cardkey:'theare',
     title: 'Les Zinzins du Théâtre',
     image: withBase('/images/img2.jpg'),
     description: `Une commission qui s'occupe de créer les conditions de formation, de production et de diffusion de pièces de théâtre et de spectacles d'animation.`
   },
   {
+      cardkey:'cinema',
     title: 'Les Zinzins du Cinéma',
     image: withBase('/images/img1.jpg'),
     description: `Ciné-club animé par des membres passionnés de cinéma, qui organisent des projections, débats et rencontres autour du 7e art.`
   },
   {
+      cardkey:'lecture',
     title: 'Les Zinzins de la Lecture',
     image: withBase('/images/img6.jpg'),
     description: `Réunit enfants, jeunes et adultes passionnés de livres pour échanger et débattre autour de lectures diverses.`
   },
   {
+      cardkey:'musique',
     title: 'Les Zinzins de la Musique',
     image: withBase('/images/background-hero.jpg'),
     description: `Commission dédiée à la promotion de la musique à travers des ateliers, concerts et créations musicales collectives.`
   },
   {
+      cardkey:'nature',
     title: 'Les Zinzins de la Nature',
     image: withBase('/images/img5.jpg'),
     description: `Œuvre pour l’assainissement, l’écotourisme et la sensibilisation écologique à travers des actions de terrain.`
   },
   {
+      cardkey:'benevolat',
     title: 'Bénévolat',
     image: withBase('/images/benevolat.jpg'),
     description: `Actions solidaires au profit d’enfants, personnes âgées et familles, grâce à des campagnes, dons et visites sociales.`
@@ -38,7 +44,7 @@ const commissions = [
 function Commissions() {
   return (
     <div className="py-16 px-4 sm:px-8 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-semibold text-gray-800 mb-10 text-center">Nos Commissions</h1>
+      <h1 className="text-3xl font-semibold dark:text-gray-200 text-gray-800 mb-10 text-center">Nos Commissions</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {commissions.map((item, index) => (
           <CommissionCard
@@ -46,6 +52,7 @@ function Commissions() {
             image={item.image}
             title={item.title}
             description={item.description}
+            cardkey={item.cardkey}
           />
         ))}
       </div>

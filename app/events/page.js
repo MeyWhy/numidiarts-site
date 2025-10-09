@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import events from '../data/events.json'
-
+import { withBase } from '@/utils/basePath'
 function Page() {
   const itemsPerPage = 3
   const [currentPage, setCurrentPage] = useState(1)
@@ -27,7 +27,7 @@ function Page() {
                 <Image
                   width={130}
                   height={130}
-                  src={event.image}
+                  src={withBase(event.image)}
                   alt="affiche"
                   className='w-[130px] h-auto object-contain'
                 />
@@ -43,10 +43,9 @@ function Page() {
         ))}
       </ul>
 
-      {/* PAGINATION CONTROLS */}
       <div className="flex justify-center flex-wrap gap-2 mt-8">
         <button
-          className="btn btn-sm bg-gray-200"
+          className="btn btn-sm dark:bg-gray-200 bg-gray-200"
           disabled={currentPage === 1}
           onClick={() => setCurrentPage(p => p - 1)}
         >
@@ -56,7 +55,7 @@ function Page() {
         {Array.from({ length: totalPages }, (_, i) => (
           <button
             key={i}
-            className={`btn btn-sm ${currentPage === i + 1 ? 'bg-red-500 text-white' : 'bg-gray-200'}`}
+            className={`btn btn-sm ${currentPage === i + 1 ? 'bg-red-500 text-white' : 'dark:text-gray-800 bg-gray-200'}`}
             onClick={() => setCurrentPage(i + 1)}
           >
             {i + 1}
@@ -64,7 +63,7 @@ function Page() {
         ))}
 
         <button
-          className="btn btn-sm bg-gray-200"
+          className="btn btn-sm bg-gray-200 dark:text-gray-800"
           disabled={currentPage === totalPages}
           onClick={() => setCurrentPage(p => p + 1)}
         >
