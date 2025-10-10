@@ -4,7 +4,7 @@ import Presentation from '../components/Home/Presentation'
 import Valeurs from '../components/About/Valeurs'
 import Carousel from '../components/About/Carousel'
 import More from '../components/About/More'
-import Link from 'next/link'
+
 import { withBase } from '@/utils/basePath'
 function AboutUsPage() {
   return (

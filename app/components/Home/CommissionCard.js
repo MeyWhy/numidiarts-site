@@ -18,7 +18,7 @@ function CommissionCard({ cardkey, image, title, description }) {
         <h2 className="card-title text-lg font-semibold dark:text-gray-200 text-gray-800">{title}</h2>
         <p className="text-sm dark:text-gray-100 text-gray-600">{description}</p>
         <div className="card-actions mt-4">
-          <Link href={`/about/?card=${cardkey}#commissions`} className="btn btn-sm text-white bg-red-400 rounded-3xl hover:bg-red-600">
+          <Link href={`/about/#commissions`} className="btn btn-sm text-white bg-red-400 rounded-3xl hover:bg-red-600">
            Découvrir &gt;
           </Link>
         </div>
