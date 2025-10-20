@@ -11,7 +11,7 @@ function Footer() {
   </nav>
 
   <aside>
-    <p>Copyright Numidi Arts © {new Date().getFullYear()} - All right reserved by Mey Yaou</p>
+    <p>Copyright Numidi Arts © {new Date().getFullYear()}</p>
    <p className="text-sm mt-2">
             Nous ne collectons aucune donnée, aucun cookie, sauf ceux éventuels de l’hébergeur ou de services externes comme Google.
           </p>
