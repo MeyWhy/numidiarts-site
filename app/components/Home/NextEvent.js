@@ -31,7 +31,7 @@ function NextEvent() {
           <h2 className="card-title">Rencontre Littéraire - Lectures Avec Hosni Kitouni</h2>
           <p className='text-gray-500'>08 Novembre 2025 - 14h</p>
           <p className='text-red-700 text-sm'>Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».</p>
-          <p className='text-base'>Une Rencontre littéraire interactive « Lectures », célébrant le parcours du chercheur et historien Hosni Kitouni, à travers la mise en lumière de ses contributions scientifiques, littéraires et académiques majeures. En célébration du 71ᵉ anniversaire du déclenchement de la glorieuse Guerre de Libération nationale. L'invitation est ouverte au public, amateurs de littérature, de lecture et d'écriture, soyez au rendez-vous !
+          <p className='text-base'>Une Rencontre littéraire interactive « Lectures », célébrant le parcours du chercheur et historien Hosni Kitouni, à travers la mise en lumière de ses contributions scientifiques, littéraires et académiques majeures. En célébration du 71ᵉ anniversaire du déclenchement de la glorieuse Guerre de Libération nationale. L&apos;invitation est ouverte au public, amateurs de littérature, de lecture et d&apos;écriture, soyez au rendez-vous !
 
           </p>
           <div className="card-actions justify-end">
