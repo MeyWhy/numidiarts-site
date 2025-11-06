@@ -28,11 +28,11 @@ function NextEvent() {
         </figure>
 
         <div className="card-body w-full lg:w-1/2 ">
-          <h2 className="card-title">4ème Edition Ciné-Cirta, Cinéma & Mémoire</h2>
-          <p className='text-gray-500'>26 Octobre - 31 Octobre 2025</p>
-          <p className='text-red-700 text-sm'>Constantine</p>
-          <p className='text-base'>
-           Cette édition de Ciné-Cirta, Cinéma & Mémoire mettra à l&apos;honneur le cinéma amateur algérien à travers un programme riche et varié avec des projections, hommages, conférences et ateliers, avec pour objectif de préserver et valoriser ce patrimoine tout en encourageant les jeunes à la pratique cinématographique.
+          <h2 className="card-title">Rencontre Littéraire - Lectures Avec Hosni Kitouni</h2>
+          <p className='text-gray-500'>08 Novembre 2025 - 14h</p>
+          <p className='text-red-700 text-sm'>Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».</p>
+          <p className='text-base'>Une Rencontre littéraire interactive « Lectures », célébrant le parcours du chercheur et historien Hosni Kitouni, à travers la mise en lumière de ses contributions scientifiques, littéraires et académiques majeures. En célébration du 71ᵉ anniversaire du déclenchement de la glorieuse Guerre de Libération nationale. L'invitation est ouverte au public, amateurs de littérature, de lecture et d'écriture, soyez au rendez-vous !
+
           </p>
           <div className="card-actions justify-end">
             <Link href='/events' className="btn bg-white text-black hover:bg-red-300 dark:bg-white dark:text-black dark:hover:bg-red-300">&rarr;</Link>
