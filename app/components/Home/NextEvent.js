@@ -31,7 +31,7 @@ function NextEvent() {
           <h2 className="card-title">Projection - Al Massir de Youssef Chahine</h2>
           <p className='text-gray-500'>15 Novembre 2025 - 14h00</p>
           <p className='text-red-700 text-sm'>Musée du cinéma Constantine (Cinémathèque), Salle Ennasser</p>
-          <p className='text-base'>Projection du film « Al-Massir », réalisé par le grand cinéaste égyptien Youssef Chahine. À l'occasion d'une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l'Association Numidia Arts, en partenariat avec le Musée du Cinéma de Constantine. Rendez-vous le samedi, à la Cinémathèque de Constantine Salle Ennasser, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre — ouverte à tous les amoureux du 7ᵉ art, ainsi qu&apos;à toutes les citoyennes et tous les citoyens de Constantine.
+          <p className='text-base'>Projection du film « Al-Massir », réalisé par le grand cinéaste égyptien Youssef Chahine. À l&apos;occasion d&apos;une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l&apos;Association Numidia Arts, en partenariat avec le Musée du Cinéma de Constantine. Rendez-vous le samedi, à la Cinémathèque de Constantine - Salle Ennasser, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu&apos;à toutes les citoyennes et tous les citoyens de Constantine.
 
           </p>
           <div className="card-actions justify-end">
