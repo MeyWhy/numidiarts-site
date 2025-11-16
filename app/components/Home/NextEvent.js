@@ -28,10 +28,10 @@ function NextEvent() {
         </figure>
 
         <div className="card-body w-full lg:w-1/2 ">
-          <h2 className="card-title">Rencontre Littéraire - Lectures Avec Hosni Kitouni</h2>
-          <p className='text-gray-500'>08 Novembre 2025 - 14h</p>
-          <p className='text-red-700 text-sm'>Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».</p>
-          <p className='text-base'>Une Rencontre littéraire interactive « Lectures », célébrant le parcours du chercheur et historien Hosni Kitouni, à travers la mise en lumière de ses contributions scientifiques, littéraires et académiques majeures. En célébration du 71ᵉ anniversaire du déclenchement de la glorieuse Guerre de Libération nationale. L&apos;invitation est ouverte au public, amateurs de littérature, de lecture et d&apos;écriture, soyez au rendez-vous !
+          <h2 className="card-title">Projection - Al Massir de Youssef Chahine</h2>
+          <p className='text-gray-500'>15 Novembre 2025 - 14h00</p>
+          <p className='text-red-700 text-sm'>Musée du cinéma Constantine (Cinémathèque), Salle Ennasser</p>
+          <p className='text-base'>Projection du film « Al-Massir », réalisé par le grand cinéaste égyptien Youssef Chahine. À l'occasion d'une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l'Association Numidia Arts, en partenariat avec le Musée du Cinéma de Constantine. Rendez-vous le samedi, à la Cinémathèque de Constantine Salle Ennasser, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre — ouverte à tous les amoureux du 7ᵉ art, ainsi qu&apos;à toutes les citoyennes et tous les citoyens de Constantine.
 
           </p>
           <div className="card-actions justify-end">

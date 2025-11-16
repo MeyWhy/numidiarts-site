@@ -35,7 +35,8 @@ function Page() {
               <div className="card-body w-full px-4 pt-0 sm:pt-4">
                 <h2 className="card-title text-lg sm:text-xl">{event.title}</h2>
                 <p className='text-gray-500 text-sm sm:text-md'>{event.date}</p>
-                <p className='text-red-700 text-base sm:text-lg'>{event.location}</p>
+                <p className='text-red-700 text-base sm:text-sm'>{event.location}</p>
+                <hr className='text-gray-200'></hr>
                 <p className='text-sm text-justify'>{event.description}</p>
               </div>
             </div>
