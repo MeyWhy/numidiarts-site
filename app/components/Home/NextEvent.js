@@ -28,12 +28,14 @@ function NextEvent() {
         </figure>
 
         <div className="card-body w-full lg:w-1/2 ">
-          <h2 className="card-title">Projection - Le Sang des Loups de Amar Sifodil</h2>
-          <p className='text-gray-500'>29 Novembre 2025 - 14h00</p>
-          <p className='text-red-700 text-sm'>Musée du cinéma Constantine (Cinémathèque), Salle Ennasser</p>
-          <p className='text-base'>Projection du film « Le Sang des Loups », du réalisatuer algérien Amar Sifodil, produit en 2017 par Yahia Mezahm et l&apos;AARC. À l&apos;occasion d&apos;une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l&apos;Association Numidia Arts, en partenariat avec le Musée du Cinéma de Constantine. Rendez-vous le samedi, à la Cinémathèque de Constantine - Salle Ennasser, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu&apos;à toutes les citoyennes et tous les citoyens de Constantine.
-
+          <h2 className="card-title">Ciné-Cirta: Cinéma et Mémoire - Constantine au cœur du cinéma</h2>
+          <p className='text-gray-500'>29 Décembre 2025 - 31 Décembre 2025</p>
+          <p className='text-red-700 text-sm'>Maison de la Culture Malek Haddad, Constantine</p>
+          <p className='text-base'>4ème Edition de l&apos;évènement Ciné-Cirta: Cinéma et Mémoire avec comme thème Constantine au cœur du cinéma. Au programme, des projections de films et des ateliers assurés par des professionels et des passionnés autour des métiers du cinéma. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu$&apos;à toutes les citoyennes et tous les citoyens de Constantine.
+            Pour plus d&apos;informations visitez notre  
+            <a className='text-base' href='https://www.facebook.com/share/p/1S8zuVadoK/'> page facebook</a>
           </p>
+          
           <div className="card-actions justify-end">
             <Link href='/events' className="btn bg-white text-black hover:bg-red-300 dark:bg-white dark:text-black dark:hover:bg-red-300">&rarr;</Link>
           </div>
