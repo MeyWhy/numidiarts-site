@@ -1,10 +1,17 @@
 [
+  {
+    "title": "Rencontre Littéraire - Lectures Avec Khaled Belhadj",
+    "date":"17 Janvier 2026 - 10h00",
+    "location": "Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».",
+    "description": "Rencontre littéraire interactive « Lectures », en présence de l’écrivain et metteur en scène, le dramaturge Khaled Belhadj. La rencontre sera consacrée à sa dernière pièce, « Mandarine », et sera suivie d’une séance de dédicaces. L’invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d’écriture.",
+    "image": "/images/affiches/nextev.jpg"
+  }, 
     {
     "title": "Ciné-Cirta: Cinéma et Mémoire - Constantine au cœur du cinéma",
     "date":"29 Décembre 2025 - 31 Décembre 2025",
     "location": "Maison de la Culture Malek Haddad, Constantine",
     "description": "4ème Edition de l'évènement Ciné-Cirta: Cinéma et Mémoire avec comme thème Constantine au cœur du cinéma. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu'à toutes les citoyennes et tous les citoyens de Constantine. ",
-    "image": "/images/affiches/nextev.jpg"
+    "image": "/images/affiches/cinecirta.jpg"
   },    
   {
     "title": "Projection - Le Sang des Loups de Amar Sifodil",

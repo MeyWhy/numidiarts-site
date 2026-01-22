@@ -28,12 +28,10 @@ function NextEvent() {
         </figure>
 
         <div className="card-body w-full lg:w-1/2 ">
-          <h2 className="card-title">Ciné-Cirta: Cinéma et Mémoire - Constantine au cœur du cinéma</h2>
-          <p className='text-gray-500'>29 Décembre 2025 - 31 Décembre 2025</p>
-          <p className='text-red-700 text-sm'>Maison de la Culture Malek Haddad, Constantine</p>
-          <p className='text-base'>4ème Edition de l&apos;évènement Ciné-Cirta: Cinéma et Mémoire avec comme thème Constantine au cœur du cinéma. Au programme, des projections de films et des ateliers assurés par des professionels et des passionnés autour des métiers du cinéma. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu$&apos;à toutes les citoyennes et tous les citoyens de Constantine.
-            Pour plus d&apos;informations visitez notre  
-            <a className='text-base' href='https://www.facebook.com/share/p/1S8zuVadoK/'> page facebook</a>
+          <h2 className="card-title">Rencontre Littéraire - Lectures Avec Khaled Belhadj</h2>
+          <p className='text-gray-500'>17 Janvier 2026 - 10h00</p>
+          <p className='text-red-700 text-sm'>Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».</p>
+          <p className='text-base'>Rencontre littéraire interactive « Lectures », en présence de l&apos;écrivain et metteur en scène, le dramaturge Khaled Belhadj. La rencontre sera consacrée à sa dernière pièce, « Mandarine », et sera suivie d&apos;une séance de dédicaces. L&apos;invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d&apos;écriture.
           </p>
           
           <div className="card-actions justify-end">
