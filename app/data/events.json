@@ -1,10 +1,37 @@
-[
+[  {
+    "title": "Rencontre Littéraire - Lectures Avec Mourad Chetti",
+    "date":"02 Mai 2026 - 13h00",
+    "location": "Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».",
+    "description": "Rencontre littéraire interactive « Lectures », en présence de l’écrivain Mourad Chetti. La rencontre portera sur ses  œuvres romanesques « Saga Berbère » ainsi que sur son dernier livre (2025), « Les tavernes de Gadès », et sera suivie d’une séance de vente-dédicaces. L’invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d’écriture.",
+    "image": "/images/affiches/nextev.jpg"
+  }, 
+     {
+    "title": "Projection Les Zinzins du Cinéma - The moment de Hadi Guira",
+    "date":"23 Avril 2026 - 14h00",
+    "location": "Musée du cinéma Constantine (Cinémathèque), Salle Ennasser",
+    "description": "Projection du film « The moment », du réalisatuer algérien Hadi Guira. À l'occasion d'une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l'Association Numidia Arts, en partenariat avec le Musée du Cinéma de Constantine. Rendez-vous le jeudi, à la Cinémathèque de Constantine - Salle Ennasser, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu'à toutes les citoyennes et tous les citoyens de Constantine.",
+    "image": "/images/affiches/themoment.jpg"
+  }, 
+   {
+    "title": "Projection Ciné Likoum - Joussour Kasantina de Eldjilali Beskri",
+    "date":"11 Avril 2026 - 14h30",
+    "location": "Maison de la Culture Malek Haddad, Constantine",
+    "description": "Projection du film documentaire « Joussour Kasantina », du réalisateur algérien Eldjilali Beskri. À l'occasion d'une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l'Association Numidia Arts, en partenariat avec le palais de la culture Malek Haddad Constantine et le CADC. Rendez-vous le samedi, au palais de la culture Malek Haddad Constantine, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu'à toutes les citoyennes et tous les citoyens de Constantine.",
+    "image": "/images/affiches/joussourkasantina.png"
+  }, 
+   {
+    "title": "Projection Les Zinzins du Cinéma - Back to town de Djamel Lakehal",
+    "date":"09 Avril 2026 - 14h00",
+    "location": "Musée du cinéma Constantine (Cinémathèque), Salle Ennasser",
+    "description": "Projection du film documentaire « Back to town, Batna, Que je t'aime, que je t'aime », du réalisatuer algérien Djamel Lakehal. À l'occasion d'une rencontre cinéphile organisée par la commission des Zinzins du Cinéma de l'Association Numidia Arts, en partenariat avec le Musée du Cinéma de Constantine. Rendez-vous le jeudi, à la Cinémathèque de Constantine - Salle Ennasser, pour retrouver le public passionné de cinéma et contribuer à dynamiser la scène cinématographique dans la wilaya. Entrée libre ouverte à tous les amoureux du 7ᵉ art, ainsi qu'à toutes les citoyennes et tous les citoyens de Constantine.",
+    "image": "/images/affiches/backtotown.jpg"
+  }, 
   {
     "title": "Rencontre Littéraire - Lectures Avec Khaled Belhadj",
     "date":"17 Janvier 2026 - 10h00",
     "location": "Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».",
     "description": "Rencontre littéraire interactive « Lectures », en présence de l’écrivain et metteur en scène, le dramaturge Khaled Belhadj. La rencontre sera consacrée à sa dernière pièce, « Mandarine », et sera suivie d’une séance de dédicaces. L’invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d’écriture.",
-    "image": "/images/affiches/nextev.jpg"
+    "image": "/images/affiches/mandarines.jpg"
   }, 
     {
     "title": "Ciné-Cirta: Cinéma et Mémoire - Constantine au cœur du cinéma",

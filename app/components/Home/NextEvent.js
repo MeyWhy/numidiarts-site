@@ -28,10 +28,10 @@ function NextEvent() {
         </figure>
 
         <div className="card-body w-full lg:w-1/2 ">
-          <h2 className="card-title">Rencontre Littéraire - Lectures Avec Khaled Belhadj</h2>
-          <p className='text-gray-500'>17 Janvier 2026 - 10h00</p>
+          <h2 className="card-title">Rencontre Littéraire - Lectures Avec Mourad Chetti</h2>
+          <p className='text-gray-500'>02 Mai 2026 - 13h00</p>
           <p className='text-red-700 text-sm'>Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».</p>
-          <p className='text-base'>Rencontre littéraire interactive « Lectures », en présence de l&apos;écrivain et metteur en scène, le dramaturge Khaled Belhadj. La rencontre sera consacrée à sa dernière pièce, « Mandarine », et sera suivie d&apos;une séance de dédicaces. L&apos;invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d&apos;écriture.
+          <p className='text-base'>Rencontre littéraire interactive « Lectures », en présence de l&apos;écrivain Mourad Chetti. La rencontre portera sur ses  œuvres romanesques « Saga Berbère » ainsi que sur son dernier livre (2025), « Les tavernes de Gadès », et sera suivie d&apos;une séance de vente-dédicaces. L&apos;invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d&apos;écriture.
           </p>
           
           <div className="card-actions justify-end">
