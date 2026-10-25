@@ -1,9 +1,17 @@
-[  {
+[
+  {
+  "title": "5e édition des Journées Ciné-Cirta « Cinéma et Mémoire »",
+  "date": "31 octobre - 4 novembre 2026",
+  "location": "Palais de la Culture Malek Haddad Constantine, l'UP",
+  "description": "Ils étaient amateurs... mais leur passion pour le cinéma était immense. Du 31 octobre au 4 novembre 2026, Constantine accueillera la cinquième édition des Journées Ciné-Cirta « Cinéma et Mémoire », placée sous le slogan « Le cinéma amateur, l’autre mémoire du cinéma algérien ». Cinq jours de projections cinématographiques, de rencontres, de témoignages, d’ateliers et de conférences pour redécouvrir des films, des visages et des parcours qui ont marqué notre mémoire cinématographique. Cinéastes et amoureux du septième art, jeunes et moins jeunes, citoyennes et citoyens de Constantine, nous vous invitons à venir nombreux participer à ce voyage passionnant entre cinéma et mémoire. Ces cinéastes ont, eux aussi, contribué à écrire l’histoire du cinéma algérien. Événement organisé par l’association culturelle NumidiArts, avec le soutien du ministère de la Culture et des Arts.",
+  "image": "/images/affiches/nextev.png"
+},
+    {
     "title": "Rencontre Littéraire - Lectures Avec Mourad Chetti",
     "date":"02 Mai 2026 - 13h00",
     "location": "Salle du défunt artiste Abdelhamid Habbati, au Théâtre Régional de Constantine « Mohamed Tahar Fergani ».",
     "description": "Rencontre littéraire interactive « Lectures », en présence de l’écrivain Mourad Chetti. La rencontre portera sur ses  œuvres romanesques « Saga Berbère » ainsi que sur son dernier livre (2025), « Les tavernes de Gadès », et sera suivie d’une séance de vente-dédicaces. L’invitation est ouverte à tous les amoureux de littérature, de livres, de lecture et d’écriture.",
-    "image": "/images/affiches/nextev.jpg"
+    "image": "/images/affiches/chetti.jpg"
   }, 
      {
     "title": "Projection Les Zinzins du Cinéma - The moment de Hadi Guira",
